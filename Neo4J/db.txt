@@ -36,7 +36,3 @@ create(Momi:Worker{name:"Momi",id:213232, address: "Tel Aviv", salary:20000}),
 (Noami)-[:friend]->(Moti),
 (Noami)-[:friend]->(Tor),
 (Moshe)-[:friend]->(Moti)
-**************************************************************************************************************8
-
-reslts:
-[Dan, Dani, Gov, Guri, Momi, Vered, Yael]

@@ -21,6 +21,8 @@ reducer = function(book, year) {return Array.sum(year);};
 
 
 
+
+
 Mori:
 var m = function() {
     var words = this.the_book.split(" ");

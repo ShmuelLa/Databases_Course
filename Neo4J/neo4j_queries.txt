@@ -1,0 +1,4 @@
+MATCH (a)-[:friend*1..3]-(b{address:"Tel Aviv"})
+WITH COLLECT(b) AS friends, a where a.salary>=19999
+AND ALL(x in friends where x.salary>=19999) WITH a ORDER BY a.name
+RETURN collect(DISTINCT a.name)
