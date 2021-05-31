@@ -1,0 +1,1 @@
+curl -XPUT "http://localhost:9200/books" -d "{\"Name\": \"Book1\", \"Authors\": \"Author 1\", \"Genre\": \"Genre1\", \"Publisher\": \"Publisher1\", \"Publish_Year\": \"2000\", \"Summary\": \"This is a book summary example\"}"
