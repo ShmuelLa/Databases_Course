@@ -1,0 +1,23 @@
+
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix cd: <http://purl.org/dc/elements/1.1/#> .
+
+<http://www.recshop.fake/cd/111> cd:id "111";
+	cd:name "Israel Israeli" ;
+    cd:age "15" ;
+	cd:Father_ID "444" .
+
+<http://www.recshop.fake/cd/222> cd:id "222";
+	cd:name "Ploni Almoni" ;
+    cd:age "2" ;
+	cd:Father_ID "333" .
+
+<http://www.recshop.fake/cd/333> cd:id "333";
+	cd:name "John Smith" ;
+    cd:age "30" ;
+	cd:Father_ID "444" .
+
+<http://www.recshop.fake/cd/444> cd:id "444";
+	cd:name "Reuven Ariel" ;
+    cd:age "81" ;
+	cd:Father_ID "555" .
